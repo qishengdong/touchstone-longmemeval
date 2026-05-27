@@ -1,0 +1,340 @@
+{
+  "description": "Virtual user fixture: 围绝经期女性 Linda (perimenopause Linda), 35-day metabolic health dialogue (2026-04-20 to 2026-05-25). Designed for stress-testing AI memory across 6 dimensions of long-conversation recall.",
+  "user": {
+    "wechatUserId": "LME_LINDA_V2_BENCHMARK",
+    "nickname": "Linda V2 (LongMemEval benchmark)",
+    "primaryScene": "perimenopause",
+    "is_test_bot": 1,
+    "note": "Virtual user, no PII. Designed solely for benchmark."
+  },
+  "session_count": 22,
+  "total_turns": 46,
+  "day_span": 35,
+  "date_range": "2026-04-20 to 2026-05-25",
+  "dimensions_tested": {
+    "T1_info": "Single-fact recall (date / weight / dose)",
+    "T2_multi": "Multi-session reasoning (cumulative weight loss / pattern)",
+    "T3_temporal": "Time-anchored推算 (last Wednesday / first occurrence)",
+    "T4_update": "Belief conflict (stated 不吃辣 vs current 吃辣)",
+    "T5_abstain": "Honest unknown (information never provided)",
+    "T6_method": "Trainability (user-taught rules: listen-first / no nag after 10pm)"
+  },
+  "sessions": [
+    {
+      "date": "2026-04-20",
+      "type": "deep_consult",
+      "turns": [
+        {
+          "role": "user",
+          "content": "Sivon 你好, 我今天打了第一针司美格鲁肽, 0.25mg, 医生开的."
+        },
+        {
+          "role": "assistant",
+          "content": "记下了, 4/20 第一针 0.25mg. 我接着帮你监控."
+        },
+        {
+          "role": "user",
+          "content": "我 45 岁, 体重 70.5kg, 身高 165, 围绝经期 1 年半了."
+        },
+        {
+          "role": "assistant",
+          "content": "档案更新."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-22",
+      "type": "daily",
+      "turns": [
+        {
+          "role": "user",
+          "content": "昨晚没睡好, 凌晨 3 点醒了一次, 一共睡了 5.5 小时."
+        },
+        {
+          "role": "assistant",
+          "content": "记下: 4/21 睡眠 5.5h, 凌晨 3 点醒."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "type": "daily",
+      "turns": [
+        {
+          "role": "user",
+          "content": "今天恶心了一上午, 几乎吃不下早餐, 只喝了点温水."
+        },
+        {
+          "role": "assistant",
+          "content": "记下: GLP-1 副作用恶心, 上午高发."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "type": "training",
+      "turns": [
+        {
+          "role": "user",
+          "content": "Sivon 我说一件你以后必须遵守的事: 晚上 10 点之后别再催我做运动, 我那时候就是要躺平."
+        },
+        {
+          "role": "assistant",
+          "content": "记下铁律: 22:00 后不催运动."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-26",
+      "type": "daily",
+      "turns": [
+        {
+          "role": "user",
+          "content": "今天周日, 全天跟女儿在家, 她小学三年级有点焦虑, 我陪了她做作业."
+        },
+        {
+          "role": "assistant",
+          "content": "记下女儿三年级 + 你陪伴."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "type": "daily",
+      "turns": [
+        {
+          "role": "user",
+          "content": "体重 69.8kg, 一周掉了 0.7kg. 早餐: 蒸蛋 + 牛油果半个 + 黑咖啡."
+        },
+        {
+          "role": "assistant",
+          "content": "记下 4/28 体重 69.8, 早餐结构."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-30",
+      "type": "deep_consult",
+      "turns": [
+        {
+          "role": "user",
+          "content": "我下周一去成都出差 3 天 (5/4-5/6), 怎么打针?"
+        },
+        {
+          "role": "assistant",
+          "content": "提前一天打, 5/3 打, 出差期间不动. 记下出差."
+        }
+      ]
+    },
+    {
+      "date": "2026-05-02",
+      "type": "training",
+      "turns": [
+        {
+          "role": "user",
+          "content": "Sivon 再给你一条铁律: 我焦虑的时候你别直接给解决方案, 先听我说完."
+        },
+        {
+          "role": "assistant",
+          "content": "记下: 焦虑时 listen-first, 不立刻给方案."
+        }
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "type": "daily",
+      "turns": [
+        {
+          "role": "user",
+          "content": "今天打第三针, 还是 0.25mg. 医生说下周可加到 0.5."
+        },
+        {
+          "role": "assistant",
+          "content": "记下 5/3 第三针 0.25mg, 下周可升 0.5."
+        }
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "type": "daily",
+      "turns": [
+        {
+          "role": "user",
+          "content": "到成都了, 入住春熙路酒店. 飞机餐没吃, 一直反胃."
+        },
+        {
+          "role": "assistant",
+          "content": "记下: 5/4 抵成都, 反胃影响进食."
+        }
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "type": "daily",
+      "turns": [
+        {
+          "role": "user",
+          "content": "回上海了, 出差三天体重 69.3kg, 又掉了 0.5."
+        },
+        {
+          "role": "assistant",
+          "content": "记下: 5/7 体重 69.3 (出差期 -0.5kg)."
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "type": "daily",
+      "turns": [
+        {
+          "role": "user",
+          "content": "今天升到 0.5mg 了. 注射后晚餐只吃了半碗清汤面."
+        },
+        {
+          "role": "assistant",
+          "content": "记下 5/10 升 0.5mg + 半碗面."
+        }
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "type": "daily",
+      "turns": [
+        {
+          "role": "user",
+          "content": "季度报告临近 deadline, 这两天压力大, 没怎么记录食物."
+        },
+        {
+          "role": "assistant",
+          "content": "理解, 压力期食物记录 hold."
+        }
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "type": "deep_consult",
+      "turns": [
+        {
+          "role": "user",
+          "content": "凌晨 2 点醒了, 想到妈妈快 70 了我连陪她过生日都难, 哭了一阵."
+        },
+        {
+          "role": "assistant",
+          "content": "记下情绪事件 5/14 凌晨."
+        }
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "type": "training",
+      "turns": [
+        {
+          "role": "user",
+          "content": "Sivon 再加一条: 我的蛋白质需求按 1.2g/kg 算, 不是 0.8 不是 1.0, 是 1.2. 以后默认这个."
+        },
+        {
+          "role": "assistant",
+          "content": "记下: 蛋白质 = 1.2g/kg 体重 (Linda 个人化标准)."
+        }
+      ]
+    },
+    {
+      "date": "2026-05-16",
+      "type": "daily",
+      "turns": [
+        {
+          "role": "user",
+          "content": "体重 68.5kg. 周报终于交了, 老板没刁难, 睡前喝了一杯红酒."
+        },
+        {
+          "role": "assistant",
+          "content": "记下 5/16 体重 68.5 + 红酒情境."
+        }
+      ]
+    },
+    {
+      "date": "2026-05-17",
+      "type": "folio_journey",
+      "turns": [
+        {
+          "role": "user",
+          "content": "看了 Folio 旅程, 第 12 章 \"肌肉量保护\" 我感觉跟我现状最相关."
+        },
+        {
+          "role": "assistant",
+          "content": "记下 Linda 旅程定位: 第 12 章肌肉量保护."
+        }
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "type": "daily",
+      "turns": [
+        {
+          "role": "user",
+          "content": "昨晚做了梦梦到一个高中同学, 早上起来想找她但不敢, 你说要不要发?"
+        },
+        {
+          "role": "assistant",
+          "content": "听到了, 这种感受很真实."
+        }
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "type": "deep_consult",
+      "turns": [
+        {
+          "role": "user",
+          "content": "过去 1 个月潮热失眠很多次, 周末特别重, 但具体几次我数不清."
+        },
+        {
+          "role": "assistant",
+          "content": "记下: 潮热高峰周末, 频次未明."
+        }
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "type": "folio_journey",
+      "turns": [
+        {
+          "role": "user",
+          "content": "Folio 旅程第 12 章完成了 60%. 接下来重点是力量训练."
+        },
+        {
+          "role": "assistant",
+          "content": "记下章节 60% + 力量训练 next."
+        }
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "type": "daily",
+      "turns": [
+        {
+          "role": "user",
+          "content": "体重 67.8kg. 蛋白质今天大约 75g, 不够吧."
+        },
+        {
+          "role": "assistant",
+          "content": "记下 5/23 体重 67.8 + 蛋白质 75g (按你 1.2 标准约差 8g)."
+        }
+      ]
+    },
+    {
+      "date": "2026-05-25",
+      "type": "daily",
+      "turns": [
+        {
+          "role": "user",
+          "content": "今天去外面吃了麻辣火锅, 我以前是不太吃辣的, 但今天突然想吃."
+        },
+        {
+          "role": "assistant",
+          "content": "记下 5/25 外食麻辣火锅 (历史偏好不吃辣, 此次破例)."
+        }
+      ]
+    }
+  ]
+}
