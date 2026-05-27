@@ -1,0 +1,10 @@
+[
+  { "name": "openai-gpt4o", "url": "https://api.openai.com/v1", "model": "gpt-4o", "key_env": "OPENAI_API_KEY" },
+  { "name": "openai-gpt4o-mini", "url": "https://api.openai.com/v1", "model": "gpt-4o-mini", "key_env": "OPENAI_API_KEY" },
+  { "name": "anthropic-claude-3.5-sonnet", "url": "https://api.anthropic.com/v1", "model": "claude-3-5-sonnet-20241022", "key_env": "ANTHROPIC_API_KEY", "note": "may need adapter for /messages vs /chat/completions" },
+  { "name": "deepseek-chat", "url": "https://api.deepseek.com/v1", "model": "deepseek-chat", "key_env": "DEEPSEEK_API_KEY" },
+  { "name": "doubao-pro-32k", "url": "https://ark.cn-beijing.volces.com/api/v3", "model": "doubao-pro-32k", "key_env": "VOLC_API_KEY" },
+  { "name": "kimi-moonshot-v1-32k", "url": "https://api.moonshot.cn/v1", "model": "moonshot-v1-32k", "key_env": "MOONSHOT_API_KEY" },
+  { "name": "tencent-hunyuan-large", "url": "https://api.hunyuan.cloud.tencent.com/v1", "model": "hunyuan-large", "key_env": "HUNYUAN_API_KEY" },
+  { "name": "tencent-yuanbao-hunyuan", "url": "https://api.hunyuan.cloud.tencent.com/v1", "model": "hunyuan-large-longcontext", "key_env": "HUNYUAN_API_KEY", "note": "Yuanbao 元宝 underlying model" }
+]
