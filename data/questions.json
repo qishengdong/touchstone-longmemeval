@@ -1,0 +1,602 @@
+[
+  {
+    "id": "T1-01",
+    "dim": "T1_info",
+    "q": "Linda 第一次打司美格鲁肽的日期是?",
+    "expect": "4/20 或 2026-04-20"
+  },
+  {
+    "id": "T1-02",
+    "dim": "T1_info",
+    "q": "Linda 第一针的剂量是?",
+    "expect": "0.25mg"
+  },
+  {
+    "id": "T1-03",
+    "dim": "T1_info",
+    "q": "Linda 的初始体重?",
+    "expect": "70.5kg"
+  },
+  {
+    "id": "T1-04",
+    "dim": "T1_info",
+    "q": "Linda 多大年纪?",
+    "expect": "45 岁"
+  },
+  {
+    "id": "T1-05",
+    "dim": "T1_info",
+    "q": "Linda 的身高?",
+    "expect": "165cm"
+  },
+  {
+    "id": "T1-06",
+    "dim": "T1_info",
+    "q": "4/21 那晚 Linda 睡了几小时?",
+    "expect": "5.5 小时"
+  },
+  {
+    "id": "T1-07",
+    "dim": "T1_info",
+    "q": "4/28 早餐 Linda 吃了什么?",
+    "expect": "蒸蛋 + 牛油果半个 + 黑咖啡"
+  },
+  {
+    "id": "T1-08",
+    "dim": "T1_info",
+    "q": "4/28 Linda 的体重?",
+    "expect": "69.8kg"
+  },
+  {
+    "id": "T1-09",
+    "dim": "T1_info",
+    "q": "Linda 出差去了哪个城市?",
+    "expect": "成都"
+  },
+  {
+    "id": "T1-10",
+    "dim": "T1_info",
+    "q": "Linda 在成都住的酒店区域?",
+    "expect": "春熙路"
+  },
+  {
+    "id": "T1-11",
+    "dim": "T1_info",
+    "q": "Linda 出差几天?",
+    "expect": "3 天 (5/4-5/6)"
+  },
+  {
+    "id": "T1-12",
+    "dim": "T1_info",
+    "q": "5/10 Linda 的剂量升到多少?",
+    "expect": "0.5mg"
+  },
+  {
+    "id": "T1-13",
+    "dim": "T1_info",
+    "q": "Linda 的女儿读几年级?",
+    "expect": "小学三年级"
+  },
+  {
+    "id": "T1-14",
+    "dim": "T1_info",
+    "q": "5/14 凌晨 Linda 想到了谁?",
+    "expect": "妈妈"
+  },
+  {
+    "id": "T1-15",
+    "dim": "T1_info",
+    "q": "Linda 的妈妈快多大了?",
+    "expect": "70 岁"
+  },
+  {
+    "id": "T1-16",
+    "dim": "T1_info",
+    "q": "Linda 当前体重 (最近一次记录)?",
+    "expect": "67.8kg (5/23)"
+  },
+  {
+    "id": "T1-17",
+    "dim": "T1_info",
+    "q": "Linda Folio 旅程目前在第几章?",
+    "expect": "第 12 章 肌肉量保护"
+  },
+  {
+    "id": "T2-01",
+    "dim": "T2_multi",
+    "q": "Linda 从第一针到 5/23 总共掉了多少 kg?",
+    "expect": "约 2.7kg (70.5 → 67.8)"
+  },
+  {
+    "id": "T2-02",
+    "dim": "T2_multi",
+    "q": "Linda 在出差期间 (5/4-5/7) 体重变化?",
+    "expect": "约 -0.5kg (从 69.8 到 69.3)"
+  },
+  {
+    "id": "T2-03",
+    "dim": "T2_multi",
+    "q": "Linda 报过几次睡眠问题, 模式是?",
+    "expect": "至少 2 次 (4/21 + 5/14), 凌晨醒为主"
+  },
+  {
+    "id": "T2-04",
+    "dim": "T2_multi",
+    "q": "GLP-1 副作用 Linda 提了什么类型?",
+    "expect": "恶心 / 反胃 / 食欲下降"
+  },
+  {
+    "id": "T2-05",
+    "dim": "T2_multi",
+    "q": "Linda 主要的代谢/健康优先级是什么 (综合 Folio + chat)?",
+    "expect": "肌肉量保护 + 体重稳定下降 + 睡眠"
+  },
+  {
+    "id": "T2-06",
+    "dim": "T2_multi",
+    "q": "Linda 跟妈妈的关系状态?",
+    "expect": "关心但物理距离远, 内疚不能陪伴, 有情绪触发"
+  },
+  {
+    "id": "T2-07",
+    "dim": "T2_multi",
+    "q": "Linda 总训练 Sivon 几条铁律?",
+    "expect": "3 条 (晚 10 后不催运动 / 焦虑时 listen-first / 蛋白质 1.2g/kg)"
+  },
+  {
+    "id": "T2-08",
+    "dim": "T2_multi",
+    "q": "Linda 工作压力高峰是什么时候?",
+    "expect": "5/12-5/16 季度报告 deadline 期间"
+  },
+  {
+    "id": "T2-09",
+    "dim": "T2_multi",
+    "q": "5/23 Linda 蛋白质 75g 是否达标?",
+    "expect": "差约 8g (按她 1.2g/kg × 68kg ≈ 82g 算)"
+  },
+  {
+    "id": "T2-10",
+    "dim": "T2_multi",
+    "q": "5 月份 Linda 体重下降总量?",
+    "expect": "约 2kg (5/1 估算 69.8 → 5/23 67.8)"
+  },
+  {
+    "id": "T2-11",
+    "dim": "T2_multi",
+    "q": "Linda 早餐结构稳定吗?",
+    "expect": "记录较少, 有结构化早餐时是 蒸蛋+牛油果+黑咖啡, 压力期/GLP-1 副作用期会跳餐"
+  },
+  {
+    "id": "T2-12",
+    "dim": "T2_multi",
+    "q": "Linda 喝酒的情境模式?",
+    "expect": "工作压力释放后 (5/16 周报交了后)"
+  },
+  {
+    "id": "T2-13",
+    "dim": "T2_multi",
+    "q": "Linda 情绪 trigger 主要来源?",
+    "expect": "工作压力 + 家人 (妈妈/女儿) + 围绝经期生理"
+  },
+  {
+    "id": "T2-14",
+    "dim": "T2_multi",
+    "q": "Linda 升剂量 0.25 → 0.5 后吃饭量变化?",
+    "expect": "减少 (5/10 注射后只吃半碗面)"
+  },
+  {
+    "id": "T2-15",
+    "dim": "T2_multi",
+    "q": "Linda 一周做了几次力量训练?",
+    "expect": "没记录, 数据缺. 5/22 Folio 提\"接下来重点是力量训练\" 暗示还没系统做"
+  },
+  {
+    "id": "T2-16",
+    "dim": "T2_multi",
+    "q": "Linda 的潮热问题严重度?",
+    "expect": "中度, 周末加重, 频次未明"
+  },
+  {
+    "id": "T2-17",
+    "dim": "T2_multi",
+    "q": "Linda 整体减重效率怎么样?",
+    "expect": "稳定 (5 周 -2.7kg, 约每周 0.5kg), 符合 GLP-1 健康减重曲线"
+  },
+  {
+    "id": "T3-01",
+    "dim": "T3_temporal",
+    "q": "Linda 开始 GLP-1 距今 (5/27) 多久?",
+    "expect": "约 37 天 / 5 周多"
+  },
+  {
+    "id": "T3-02",
+    "dim": "T3_temporal",
+    "q": "Linda 升剂量 0.5 距今多久?",
+    "expect": "约 17 天 (5/10 → 5/27)"
+  },
+  {
+    "id": "T3-03",
+    "dim": "T3_temporal",
+    "q": "Linda 上次报告体重距今几天?",
+    "expect": "4 天 (5/23 → 5/27)"
+  },
+  {
+    "id": "T3-04",
+    "dim": "T3_temporal",
+    "q": "Linda 上次出差是什么时间?",
+    "expect": "5/4-5/6 成都"
+  },
+  {
+    "id": "T3-05",
+    "dim": "T3_temporal",
+    "q": "Linda 最近一次哭是什么时候?",
+    "expect": "5/14 凌晨"
+  },
+  {
+    "id": "T3-06",
+    "dim": "T3_temporal",
+    "q": "Linda 5/14 凌晨醒来距今 (5/27) 多少天?",
+    "expect": "13 天"
+  },
+  {
+    "id": "T3-07",
+    "dim": "T3_temporal",
+    "q": "Linda 第一条训练铁律 (晚 10 后不催运动) 是什么时候定的?",
+    "expect": "4/25"
+  },
+  {
+    "id": "T3-08",
+    "dim": "T3_temporal",
+    "q": "Linda 第二条铁律 (焦虑时 listen-first) 是什么时候?",
+    "expect": "5/2"
+  },
+  {
+    "id": "T3-09",
+    "dim": "T3_temporal",
+    "q": "Linda 第三条铁律 (蛋白质 1.2g/kg) 是什么时候?",
+    "expect": "5/15"
+  },
+  {
+    "id": "T3-10",
+    "dim": "T3_temporal",
+    "q": "从第一针到升剂量经过多少天?",
+    "expect": "20 天 (4/20 → 5/10)"
+  },
+  {
+    "id": "T3-11",
+    "dim": "T3_temporal",
+    "q": "Linda 第二针是什么时候?",
+    "expect": "4/27 (按每周一次推算)"
+  },
+  {
+    "id": "T3-12",
+    "dim": "T3_temporal",
+    "q": "今天 (5/27) 周几?",
+    "expect": "周三 (2026-05-27 是周三)"
+  },
+  {
+    "id": "T3-13",
+    "dim": "T3_temporal",
+    "q": "上周三是几号?",
+    "expect": "5/20"
+  },
+  {
+    "id": "T3-14",
+    "dim": "T3_temporal",
+    "q": "Linda Folio 旅程进入第 12 章是什么时候?",
+    "expect": "5/17"
+  },
+  {
+    "id": "T3-15",
+    "dim": "T3_temporal",
+    "q": "Linda 体重 68.5kg 是哪天报的?",
+    "expect": "5/16"
+  },
+  {
+    "id": "T3-16",
+    "dim": "T3_temporal",
+    "q": "5/10 升剂量后第一次报体重是哪天?",
+    "expect": "5/16 (差 6 天)"
+  },
+  {
+    "id": "T3-17",
+    "dim": "T3_temporal",
+    "q": "Linda 第一次提到外面吃辣是什么时候?",
+    "expect": "5/25 麻辣火锅"
+  },
+  {
+    "id": "T4-01",
+    "dim": "T4_update",
+    "q": "Linda 5/3 说不喝咖啡, 5/25 又吃辣, 现在该 assume 她吃辣?",
+    "expect": "反问: 是临时破例还是改了偏好"
+  },
+  {
+    "id": "T4-02",
+    "dim": "T4_update",
+    "q": "Linda 4 月初体重 70.5, 5/23 是 67.8, 现在用哪个数算?",
+    "expect": "67.8 (最新数据)"
+  },
+  {
+    "id": "T4-03",
+    "dim": "T4_update",
+    "q": "Linda 4/20 注射 0.25, 5/10 升到 0.5, 现在的剂量?",
+    "expect": "0.5mg"
+  },
+  {
+    "id": "T4-04",
+    "dim": "T4_update",
+    "q": "Linda 蛋白质需求按多少 g/kg 算?",
+    "expect": "1.2g/kg (Linda 5/15 训练后)"
+  },
+  {
+    "id": "T4-05",
+    "dim": "T4_update",
+    "q": "Linda Folio 旅程第 12 章完成度?",
+    "expect": "60% (5/22 报告)"
+  },
+  {
+    "id": "T4-06",
+    "dim": "T4_update",
+    "q": "Linda 出差状态: 还在外地还是回上海?",
+    "expect": "回上海 (5/7 回)"
+  },
+  {
+    "id": "T4-07",
+    "dim": "T4_update",
+    "q": "Linda 5/16 喝过红酒, 这是常态还是特殊情境?",
+    "expect": "特殊情境 (季度报告交完释放), 不是常态"
+  },
+  {
+    "id": "T4-08",
+    "dim": "T4_update",
+    "q": "Linda 季度报告 deadline 过了吗?",
+    "expect": "过了 (5/16 老板没刁难)"
+  },
+  {
+    "id": "T4-09",
+    "dim": "T4_update",
+    "q": "Linda 当前面临的最主要 health 阶段?",
+    "expect": "GLP-1 第二阶段 (升 0.5 后) + 围绝经期持续"
+  },
+  {
+    "id": "T4-10",
+    "dim": "T4_update",
+    "q": "Linda 现在能不能晚上 10 点后被催运动?",
+    "expect": "不能, 她明确禁止 (4/25 训练)"
+  },
+  {
+    "id": "T4-11",
+    "dim": "T4_update",
+    "q": "Linda 焦虑时 Sivon 该先做什么?",
+    "expect": "listen-first 听她说完, 别立刻给方案 (5/2 训练)"
+  },
+  {
+    "id": "T4-12",
+    "dim": "T4_update",
+    "q": "Linda 早餐结构现在是什么?",
+    "expect": "不确定, 4/28 记过 蒸蛋+牛油果+黑咖啡, 后面 GLP-1 副作用期跳过早餐多次"
+  },
+  {
+    "id": "T4-13",
+    "dim": "T4_update",
+    "q": "Linda 5/4-5/7 出差期间食物记录稳定吗?",
+    "expect": "不稳定 (反胃影响进食)"
+  },
+  {
+    "id": "T4-14",
+    "dim": "T4_update",
+    "q": "Linda 升剂量后副作用怎么样?",
+    "expect": "食欲减少明显 (5/10 半碗面)"
+  },
+  {
+    "id": "T4-15",
+    "dim": "T4_update",
+    "q": "Linda 当前 Folio 旅程的下一步重点?",
+    "expect": "力量训练 (5/22 报告)"
+  },
+  {
+    "id": "T4-16",
+    "dim": "T4_update",
+    "q": "4/22 那次 Linda 凌晨醒到了几点睡 / 是不是改了入睡时间?",
+    "expect": "没说改, 但醒后又睡, 一共 5.5h"
+  },
+  {
+    "id": "T4-17",
+    "dim": "T4_update",
+    "q": "5/12 后 Linda 食物记录覆盖率?",
+    "expect": "低 (压力期跳过多日, 直到 5/23 才再次记录)"
+  },
+  {
+    "id": "T5-01",
+    "dim": "T5_abstain",
+    "q": "Linda 的丈夫职业是什么?",
+    "expect": "没提过, 应 abstain"
+  },
+  {
+    "id": "T5-02",
+    "dim": "T5_abstain",
+    "q": "Linda 上一次去看心理咨询是什么时候?",
+    "expect": "没提过, 应 abstain"
+  },
+  {
+    "id": "T5-03",
+    "dim": "T5_abstain",
+    "q": "Linda 的胆固醇水平?",
+    "expect": "没提过, 应 abstain"
+  },
+  {
+    "id": "T5-04",
+    "dim": "T5_abstain",
+    "q": "Linda 5/19 跑了多远?",
+    "expect": "没提运动距离, 应 abstain"
+  },
+  {
+    "id": "T5-05",
+    "dim": "T5_abstain",
+    "q": "Linda 有没有甲状腺问题?",
+    "expect": "没提过, 应 abstain"
+  },
+  {
+    "id": "T5-06",
+    "dim": "T5_abstain",
+    "q": "Linda 用什么品牌的睡眠监测?",
+    "expect": "没提过, 应 abstain"
+  },
+  {
+    "id": "T5-07",
+    "dim": "T5_abstain",
+    "q": "Linda 上次体检报告关键指标?",
+    "expect": "没提过, 应 abstain"
+  },
+  {
+    "id": "T5-08",
+    "dim": "T5_abstain",
+    "q": "Linda 公司在哪个区?",
+    "expect": "没提过 (只知道上海), 应 abstain"
+  },
+  {
+    "id": "T5-09",
+    "dim": "T5_abstain",
+    "q": "Linda 周一早餐通常吃什么?",
+    "expect": "没具体记录周一 pattern, 应 abstain"
+  },
+  {
+    "id": "T5-10",
+    "dim": "T5_abstain",
+    "q": "Linda 月经周期目前规律吗?",
+    "expect": "没提过, 应 abstain"
+  },
+  {
+    "id": "T5-11",
+    "dim": "T5_abstain",
+    "q": "Linda 喝几杯水/天?",
+    "expect": "没提过, 应 abstain"
+  },
+  {
+    "id": "T5-12",
+    "dim": "T5_abstain",
+    "q": "Linda 妈妈住在哪里?",
+    "expect": "没提过 (只知道距离远), 应 abstain"
+  },
+  {
+    "id": "T5-13",
+    "dim": "T5_abstain",
+    "q": "Linda 上次做体检是什么时候?",
+    "expect": "没提过, 应 abstain"
+  },
+  {
+    "id": "T5-14",
+    "dim": "T5_abstain",
+    "q": "Linda 用什么品牌的咖啡机?",
+    "expect": "没提过, 应 abstain"
+  },
+  {
+    "id": "T5-15",
+    "dim": "T5_abstain",
+    "q": "Linda 4/24 那天具体几点吃午餐?",
+    "expect": "没提过, 应 abstain"
+  },
+  {
+    "id": "T6-01",
+    "dim": "T6_method",
+    "q": "现在晚上 10:30, 用户说想去跑步, Sivon 第一反应应该是?",
+    "expect": "不催运动, 顺应用户铁律 (4/25 训练)"
+  },
+  {
+    "id": "T6-02",
+    "dim": "T6_method",
+    "q": "用户说\"今天我特别焦虑\", Sivon 第一句应该?",
+    "expect": "listen-first, 不立刻给方案 (5/2 训练)"
+  },
+  {
+    "id": "T6-03",
+    "dim": "T6_method",
+    "q": "Linda 当前体重 67.8kg, 蛋白质目标多少?",
+    "expect": "约 81.4g (67.8 × 1.2)"
+  },
+  {
+    "id": "T6-04",
+    "dim": "T6_method",
+    "q": "用户晚 11 点说\"我刚跑完步累死了\", Sivon 该用 4/25 铁律吗?",
+    "expect": "不该 trigger 铁律, 因为是用户自己运动了, 不是 Sivon 催"
+  },
+  {
+    "id": "T6-05",
+    "dim": "T6_method",
+    "q": "用户问\"今天吃了 50g 蛋白够不够\", Sivon 应用 Linda 1.2g/kg 标准给数字, 不该套用通用 0.8?",
+    "expect": "用 1.2g/kg, 即按当前体重 67.8 算约 81g, 50g 差 31g"
+  },
+  {
+    "id": "T6-06",
+    "dim": "T6_method",
+    "q": "用户中午焦虑发消息\"我快崩溃了\", 不在晚 10 后窗口, listen-first 规则适用吗?",
+    "expect": "适用, 焦虑时 listen-first 不限时段"
+  },
+  {
+    "id": "T6-07",
+    "dim": "T6_method",
+    "q": "用户晚 22:30 自己问\"我现在能不能去练个 30 min\", Sivon 该催吗?",
+    "expect": "不催但可回应. 用户自己提问 ≠ Sivon 主动催. 但晚 10 后系统级应该顺应用户休息倾向."
+  },
+  {
+    "id": "T6-08",
+    "dim": "T6_method",
+    "q": "用户给的 1.2g/kg 是基于哪个体重算?",
+    "expect": "当前体重 (实测最新) 而不是 4 月初 70.5"
+  },
+  {
+    "id": "T6-09",
+    "dim": "T6_method",
+    "q": "用户中午说\"焦虑, 但我想要你给我策略\", Sivon 用 listen-first 还是直接给策略?",
+    "expect": "用户明确要策略, 可破例给, 但 acknowledge 焦虑 + 简短策略, 不长篇"
+  },
+  {
+    "id": "T6-10",
+    "dim": "T6_method",
+    "q": "Sivon 给 Linda 出 push, 时间晚 10 后, 内容是\"建议运动 30 min\", 该 ship 吗?",
+    "expect": "不该, 违反 4/25 铁律"
+  },
+  {
+    "id": "T6-11",
+    "dim": "T6_method",
+    "q": "Sivon 给 Linda 出 push 早 8 点, 内容是\"建议运动 30 min\", OK?",
+    "expect": "OK, 不在禁止窗口"
+  },
+  {
+    "id": "T6-12",
+    "dim": "T6_method",
+    "q": "Linda 上周说要尝试力量训练 (Folio 12 章), 5 天后她还没做, Sivon 该催吗?",
+    "expect": "不能\"催\", 可以问\"上周提的力量训练有想到方向吗\", 用户主导"
+  },
+  {
+    "id": "T6-13",
+    "dim": "T6_method",
+    "q": "Sivon 用 Linda 的 1.2g/kg 算蛋白质, 这能套用到其他用户吗?",
+    "expect": "不能直接套, 1.2 是 Linda 个人化训练. 其他用户默认 1.0 或问医生"
+  },
+  {
+    "id": "T6-14",
+    "dim": "T6_method",
+    "q": "Sivon 凌晨 0:30 因 push cron 触发\"想到要不要发\", 该发吗?",
+    "expect": "不发. 既违反晚 10 后规则, 也是 GLOBAL_QUIET_HOURS"
+  },
+  {
+    "id": "T6-15",
+    "dim": "T6_method",
+    "q": "Linda 教 Sivon \"焦虑时 listen-first\", Sivon 应该把这条 promote 到全局让所有用户都享受吗?",
+    "expect": "不直接 promote, 这是 Linda-trained skill, 个性化资产. 跨用户复用前必经 evaluation"
+  },
+  {
+    "id": "T6-16",
+    "dim": "T6_method",
+    "q": "Linda 5/14 凌晨哭, Sivon 在场, 该用 listen-first 还是 sleep recovery 套路?",
+    "expect": "listen-first 优先 (情绪先), 然后再回到生理"
+  },
+  {
+    "id": "T6-17",
+    "dim": "T6_method",
+    "q": "Linda 5/15 训练蛋白质规则前, Sivon 4/28 给她的早餐推荐用 1.0 还是 1.2 算?",
+    "expect": "4/28 时 1.2 规则还没定, 应用当时默认. 5/15 后切 1.2. Sivon 不该回溯改 4/28 的算法"
+  }
+]
