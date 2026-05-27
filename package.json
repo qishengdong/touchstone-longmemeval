@@ -1,0 +1,25 @@
+{
+  "name": "touchstone-longmemeval",
+  "version": "1.0.0",
+  "description": "100-question 6-dimension long-conversation memory benchmark for Chinese-healthcare AI",
+  "main": "scripts/run_benchmark.cjs",
+  "scripts": {
+    "bench": "node scripts/run_benchmark.cjs",
+    "judge": "node scripts/judge.cjs",
+    "compare": "node scripts/compare_systems.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["benchmark", "longmemeval", "llm", "memory", "healthcare-ai", "sivon", "chinese-nlp"],
+  "author": "Sivon Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qishengdong/touchstone-longmemeval.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qishengdong/touchstone-longmemeval/issues"
+  },
+  "homepage": "https://sivon.me"
+}
